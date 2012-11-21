@@ -3,73 +3,73 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'a11yhelp', 'vi', {
-	title: 'Accessibility Instructions',
-	contents: 'Nội dung Hỗ trợ. Nhấn ESC để đóng hộp thoại.',
+CKEDITOR.plugins.setLang( 'a11yhelp', 'ca', {
+	title: 'Instruccions d\'Accessibilitat',
+	contents: 'Continguts de l\'Ajuda. Per tancar aquest quadre de diàleg premi ESC.',
 	legend: [
 		{
-		name: 'Chung',
+		name: 'General',
 		items: [
 			{
-			name: 'Thanh công cụ soạn th',
-			legend: 'Nhấn ${toolbarFocus} để điều hướng đến thanh công cụ. Nhấn TAB và SHIFT-TAB để chuyển đến nhóm thanh công cụ khác. Nhấn MŨI TÊN PHẢI hoặc MŨI TÊN TRÁI để chuyển sang nút khác trên thanh công cụ. Nhấn PHÍM CÁCH hoặc ENTER để kích hoạt nút trên thanh công c.'
+			name: 'Editor de barra d\'eines',
+			legend: 'Press ${toolbarFocus} to navigate to the toolbar. Move to the next and previous toolbar group with TAB and SHIFT-TAB. Move to the next and previous toolbar button with RIGHT ARROW or LEFT ARROW. Press SPACE or ENTER to activate the toolbar button.' // MISSING
 		},
 
 			{
-			name: 'Hộp thoại Biên t',
+			name: 'Editor de quadre de diàleg',
 			legend: 'Inside a dialog, press TAB to navigate to next dialog field, press SHIFT + TAB to move to previous field, press ENTER to submit dialog, press ESC to cancel dialog. For dialogs that have multiple tab pages, press ALT + F10 to navigate to tab-list. Then move to next tab with TAB OR RIGTH ARROW. Move to previous tab with SHIFT + TAB or LEFT ARROW. Press SPACE or ENTER to select the tab page.' // MISSING
 		},
 
 			{
-			name: 'Trình đơn Ngữ cảnh cBộ soạn thảo',
+			name: 'Editor de menú contextual',
 			legend: 'Press ${contextMenu} or APPLICATION KEY to open context-menu. Then move to next menu option with TAB or DOWN ARROW. Move to previous option with SHIFT+TAB or UP ARROW. Press SPACE or ENTER to select the menu option. Open sub-menu of current option with SPACE or ENTER or RIGHT ARROW. Go back to parent menu item with ESC or LEFT ARROW. Close context menu with ESC.' // MISSING
 		},
 
 			{
-			name: 'Editor List Box', // MISSING
+			name: 'Editor de caixa de llista',
 			legend: 'Inside a list-box, move to next list item with TAB OR DOWN ARROW. Move to previous list item with SHIFT + TAB or UP ARROW. Press SPACE or ENTER to select the list option. Press ESC to close the list-box.' // MISSING
 		},
 
 			{
-			name: 'Editor Element Path Bar', // MISSING
+			name: 'Editor de barra de ruta de l\'element',
 			legend: 'Press ${elementsPathFocus} to navigate to the elements path bar. Move to next element button with TAB or RIGHT ARROW. Move to previous button with  SHIFT+TAB or LEFT ARROW. Press SPACE or ENTER to select the element in editor.' // MISSING
 		}
 		]
 	},
 		{
-		name: 'Commands', // MISSING
+		name: 'Ordres',
 		items: [
 			{
-			name: ' Undo command', // MISSING
-			legend: 'Press ${undo}' // MISSING
+			name: 'Desfer ordre',
+			legend: 'Premi ${undo}'
 		},
 			{
-			name: ' Redo command', // MISSING
-			legend: 'Press ${redo}' // MISSING
+			name: 'Refer ordre',
+			legend: 'Premi ${redo}'
 		},
 			{
-			name: ' Bold command', // MISSING
-			legend: 'Press ${bold}' // MISSING
+			name: 'Ordre negreta',
+			legend: 'Prem ${bold}'
 		},
 			{
-			name: ' Italic command', // MISSING
-			legend: 'Press ${italic}' // MISSING
+			name: 'Ordre cursiva',
+			legend: 'Prem ${italic}'
 		},
 			{
-			name: ' Underline command', // MISSING
-			legend: 'Press ${underline}' // MISSING
+			name: 'Ordre subratllat',
+			legend: 'Prem ${underline}'
 		},
 			{
-			name: ' Link command', // MISSING
-			legend: 'Press ${link}' // MISSING
+			name: 'Ordre enllaç',
+			legend: 'Prem ${link}'
 		},
 			{
-			name: ' Toolbar Collapse command', // MISSING
-			legend: 'Press ${toolbarCollapse}' // MISSING
+			name: 'Ordre amagar barra d\'eines',
+			legend: 'Prem ${toolbarCollapse}'
 		},
 			{
-			name: ' Accessibility Help', // MISSING
-			legend: 'Press ${a11yHelp}' // MISSING
+			name: 'Ajuda d\'accessibilitat',
+			legend: 'Prem ${a11yHelp}'
 		}
 		]
 	}
