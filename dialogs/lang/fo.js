@@ -3,15 +3,15 @@
  * For licensing, see LICENSE.md or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'a11yhelp', 'da', {
-	title: 'Tilgængelighedsinstrukser',
-	contents: 'Onlinehjælp. For at lukke dette vindue klik ESC',
+CKEDITOR.plugins.setLang( 'a11yhelp', 'fo', {
+	title: 'Accessibility Instructions', // MISSING
+	contents: 'Help Contents. To close this dialog press ESC.', // MISSING
 	legend: [
 		{
-		name: 'Generelt',
+		name: 'General', // MISSING
 		items: [
 			{
-			name: 'Editor værktøjslinje',
+			name: 'Editor Toolbar', // MISSING
 			legend: 'Press ${toolbarFocus} to navigate to the toolbar. Move to the next and previous toolbar group with TAB and SHIFT+TAB. Move to the next and previous toolbar button with RIGHT ARROW or LEFT ARROW. Press SPACE or ENTER to activate the toolbar button.' // MISSING
 		},
 
@@ -38,35 +38,35 @@ CKEDITOR.plugins.setLang( 'a11yhelp', 'da', {
 		]
 	},
 		{
-		name: 'Kommandoer',
+		name: 'Commands', // MISSING
 		items: [
 			{
-			name: 'Fortryd kommando',
-			legend: 'Klik på ${undo}'
+			name: ' Undo command', // MISSING
+			legend: 'Press ${undo}' // MISSING
 		},
 			{
-			name: 'Gentag kommando',
-			legend: 'Klik ${redo}'
+			name: ' Redo command', // MISSING
+			legend: 'Press ${redo}' // MISSING
 		},
 			{
-			name: 'Fed kommando',
-			legend: 'Klik ${bold}'
+			name: ' Bold command', // MISSING
+			legend: 'Press ${bold}' // MISSING
 		},
 			{
-			name: 'Kursiv kommando',
-			legend: 'Klik ${italic}'
+			name: ' Italic command', // MISSING
+			legend: 'Press ${italic}' // MISSING
 		},
 			{
-			name: 'Understregnings kommando',
-			legend: 'Klik ${underline}'
+			name: ' Underline command', // MISSING
+			legend: 'Press ${underline}' // MISSING
 		},
 			{
-			name: 'Link kommando',
-			legend: 'Klik ${link}'
+			name: ' Link command', // MISSING
+			legend: 'Press ${link}' // MISSING
 		},
 			{
 			name: ' Toolbar Collapse command', // MISSING
-			legend: 'Klik ${toolbarCollapse}'
+			legend: 'Press ${toolbarCollapse}' // MISSING
 		},
 			{
 			name: ' Access previous focus space command', // MISSING
@@ -77,34 +77,34 @@ CKEDITOR.plugins.setLang( 'a11yhelp', 'da', {
 			legend: 'Press ${accessNextSpace} to access the closest unreachable focus space after the caret, for example: two adjacent HR elements. Repeat the key combination to reach distant focus spaces.' // MISSING
 		},
 			{
-			name: 'Tilgængelighedshjælp',
-			legend: 'Kilk ${a11yHelp}'
+			name: ' Accessibility Help', // MISSING
+			legend: 'Press ${a11yHelp}' // MISSING
 		}
 		]
 	}
 	],
-	backspace: 'Backspace',
-	tab: 'Tab',
-	enter: 'Enter',
-	shift: 'Shift',
-	ctrl: 'Ctrl',
-	alt: 'Alt',
-	pause: 'Pause',
-	capslock: 'Caps Lock',
-	escape: 'Escape',
-	pageUp: 'Page Up',
-	pageDown: 'Page Down',
-	end: 'End',
-	home: 'Home',
-	leftArrow: 'Venstre pil',
-	upArrow: 'Pil op',
-	rightArrow: 'Højre pil',
-	downArrow: 'Pil ned',
-	insert: 'Insert',
-	'delete': 'Delete',
-	leftWindowKey: 'Venstre Windows tast',
-	rightWindowKey: 'Højre Windows tast',
-	selectKey: 'Select-knap',
+	backspace: 'Backspace', // MISSING
+	tab: 'Tab', // MISSING
+	enter: 'Enter', // MISSING
+	shift: 'Shift', // MISSING
+	ctrl: 'Ctrl', // MISSING
+	alt: 'Alt', // MISSING
+	pause: 'Pause', // MISSING
+	capslock: 'Caps Lock', // MISSING
+	escape: 'Escape', // MISSING
+	pageUp: 'Page Up', // MISSING
+	pageDown: 'Page Down', // MISSING
+	end: 'End', // MISSING
+	home: 'Home', // MISSING
+	leftArrow: 'Left Arrow', // MISSING
+	upArrow: 'Up Arrow', // MISSING
+	rightArrow: 'Right Arrow', // MISSING
+	downArrow: 'Down Arrow', // MISSING
+	insert: 'Insert', // MISSING
+	'delete': 'Delete', // MISSING
+	leftWindowKey: 'Left Windows key', // MISSING
+	rightWindowKey: 'Right Windows key', // MISSING
+	selectKey: 'Select key', // MISSING
 	numpad0: 'Numpad 0',
 	numpad1: 'Numpad 1',
 	numpad2: 'Numpad 2',
@@ -115,11 +115,11 @@ CKEDITOR.plugins.setLang( 'a11yhelp', 'da', {
 	numpad7: 'Numpad 7',
 	numpad8: 'Numpad 8',
 	numpad9: 'Numpad 9',
-	multiply: 'Gange',
-	add: 'Plus',
-	subtract: 'Minus',
-	decimalPoint: 'Komma',
-	divide: 'Divider',
+	multiply: 'Falda',
+	add: 'Pluss',
+	subtract: 'Frádráttar',
+	decimalPoint: 'Decimal Point', // MISSING
+	divide: 'Býta',
 	f1: 'F1',
 	f2: 'F2',
 	f3: 'F3',
@@ -132,17 +132,17 @@ CKEDITOR.plugins.setLang( 'a11yhelp', 'da', {
 	f10: 'F10',
 	f11: 'F11',
 	f12: 'F12',
-	numLock: 'Num Lock',
-	scrollLock: 'Scroll Lock',
+	numLock: 'Num Lock', // MISSING
+	scrollLock: 'Scroll Lock', // MISSING
 	semiColon: 'Semikolon',
-	equalSign: 'Lighedstegn',
+	equalSign: 'Javnatekn',
 	comma: 'Komma',
-	dash: 'Bindestreg',
+	dash: 'Dash', // MISSING
 	period: 'Punktum',
-	forwardSlash: 'Skråstreg',
-	graveAccent: 'Accent grave',
-	openBracket: 'Start klamme',
-	backSlash: 'Omvendt skråstreg',
-	closeBracket: 'Slut klamme',
-	singleQuote: 'Enkelt citationstegn'
+	forwardSlash: 'Forward Slash', // MISSING
+	graveAccent: 'Grave Accent', // MISSING
+	openBracket: 'Open Bracket', // MISSING
+	backSlash: 'Backslash', // MISSING
+	closeBracket: 'Close Bracket', // MISSING
+	singleQuote: 'Single Quote' // MISSING
 } );
